@@ -347,3 +347,194 @@ I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow devi
 [I 16:31:57.519 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
 [I 16:33:57.090 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
 [I 16:34:30.060 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 03:37:07.434 NotebookApp] Config option `token` not recognized by `NotebookApp`.
+[I 03:37:10.263 NotebookApp] [nb_conda_kernels] enabled, 3 kernels found
+[I 03:37:10.268 NotebookApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
+[W 03:37:10.462 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 03:37:10.463 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 03:37:10.577 NotebookApp] [nb_conda] enabled
+[I 03:37:11.635 NotebookApp] [nb_anacondacloud] enabled
+[I 03:37:11.967 NotebookApp] ✓ nbpresent HTML export ENABLED
+[W 03:37:11.967 NotebookApp] ✗ nbpresent PDF export DISABLED: No module named 'nbbrowserpdf'
+[I 03:37:11.972 NotebookApp] Serving notebooks from local directory: /home/carnd/CarND-Traffic-Sign-Classifier-Project
+[I 03:37:11.972 NotebookApp] 0 active kernels 
+[I 03:37:11.972 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 03:37:11.972 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 03:37:11.972 NotebookApp] No web browser found: could not locate runnable browser.
+[I 03:48:26.256 NotebookApp] 302 GET / (122.98.9.226) 0.82ms
+[I 03:57:41.925 NotebookApp] 302 GET / (125.18.177.101) 0.48ms
+[I 03:57:41.997 NotebookApp] 302 GET / (103.246.38.196) 0.33ms
+[I 03:57:54.099 NotebookApp] Writing notebook-signing key to /home/carnd/.local/share/jupyter/notebook_secret
+[W 03:57:54.103 NotebookApp] Notebook Traffic_Sign_Classifier.ipynb is not trusted
+[W 03:57:54.367 NotebookApp] Notebook Traffic_Sign_Classifier.ipynb is not trusted
+[I 03:57:56.373 NotebookApp] Kernel started: 30ab6151-f6c4-4009-a02c-f3bbdaf2766b
+[I 03:57:56.378 NotebookApp] 302 GET /notebooks/visualize_cnn.png (125.18.177.101) 0.85ms
+[I 03:59:59.378 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 03:59:59.379 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:03:02.979 NotebookApp] Kernel shutdown: 30ab6151-f6c4-4009-a02c-f3bbdaf2766b
+[W 04:03:02.981 NotebookApp] Session not found: session_id='14d4a510-81e7-4251-83a3-476e3556ccf4'
+[W 04:03:02.982 NotebookApp] 404 GET /api/sessions/14d4a510-81e7-4251-83a3-476e3556ccf4 (103.246.38.196) 0.95ms referer=None
+[W 04:03:19.263 NotebookApp] Notebook Traffic_Sign_Classifier.ipynb is not trusted
+[I 04:03:22.352 NotebookApp] Kernel started: 78fc4adb-188a-4d25-b193-15a49dbcbb39
+[I 04:03:22.354 NotebookApp] 302 GET /notebooks/visualize_cnn.png (125.18.177.101) 1.04ms
+[C 04:03:59.258 NotebookApp] received signal 15, stopping
+[I 04:03:59.258 NotebookApp] Shutting down kernels
+[I 04:03:59.660 NotebookApp] Kernel shutdown: 78fc4adb-188a-4d25-b193-15a49dbcbb39
+[W 04:04:53.097 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 04:04:53.098 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 04:04:53.283 NotebookApp] Serving notebooks from local directory: /home/carnd/CarND-Traffic-Sign-Classifier-Project
+[I 04:04:53.283 NotebookApp] 0 active kernels 
+[I 04:04:53.283 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 04:04:53.283 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 04:04:53.283 NotebookApp] No web browser found: could not locate runnable browser.
+[W 04:05:46.553 NotebookApp] Notebook Traffic_Sign_Classifier.ipynb is not trusted
+[I 04:05:49.045 NotebookApp] Kernel started: ddc6eea1-3a75-453d-b7be-2053e36376e7
+[I 04:05:49.048 NotebookApp] 302 GET /notebooks/visualize_cnn.png (125.18.177.101) 1.07ms
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcurand.so locally
+[I 04:07:33.803 NotebookApp] Kernel interrupted: ddc6eea1-3a75-453d-b7be-2053e36376e7
+[W 04:07:34.137 NotebookApp] 405 GET /api/kernels/ddc6eea1-3a75-453d-b7be-2053e36376e7/interrupt (103.246.38.196) 7.93ms referer=None
+[I 04:07:52.046 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:07:52.047 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:09:51.535 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:09:51.536 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:11:53.043 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:11:53.044 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:13:51.837 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:13:51.838 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:15:52.759 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:15:52.760 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:17:52.980 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:17:52.981 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:19:53.200 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:19:53.201 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: GRID K520
+major: 3 minor: 0 memoryClockRate (GHz) 0.797
+pciBusID 0000:00:03.0
+Total memory: 3.94GiB
+Free memory: 3.91GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 04:21:53.192 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:21:53.193 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:23:52.524 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:23:52.525 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:25:52.309 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:25:52.310 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:27:53.022 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:27:53.023 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 04:33:52.181 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:33:52.182 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:35:52.579 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:35:52.580 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:37:53.672 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:37:53.673 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:39:52.743 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:39:52.744 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:43:52.089 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:43:52.090 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 04:45:52.124 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:45:52.126 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:47:52.367 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:47:52.368 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 04:49:52.538 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:49:52.539 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:51:53.478 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:51:53.479 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:53:53.053 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:53:53.054 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:55:52.780 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:55:52.781 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 04:57:52.296 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:57:52.297 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:59:52.366 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:59:52.367 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 05:01:54.477 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:01:54.478 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 05:03:53.663 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:03:53.664 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 05:05:52.541 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:05:52.541 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 05:06:25.904 NotebookApp] 302 GET / (103.246.38.196) 0.37ms
+[I 05:07:52.500 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:07:52.501 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 05:09:52.738 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:09:52.739 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 05:15:53.111 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:15:53.112 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 05:17:53.137 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:17:53.139 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 05:19:52.993 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:19:52.994 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 05:21:52.614 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:21:52.615 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 05:23:53.140 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:23:53.141 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 05:25:52.276 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:25:52.276 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 05:31:52.963 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:31:52.964 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 05:33:52.292 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:33:52.293 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 05:35:52.293 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:35:52.294 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 05:37:52.748 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:37:52.749 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 05:41:53.464 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:41:53.465 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 05:43:52.503 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:43:52.504 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 05:45:52.522 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:45:52.523 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 05:47:53.435 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 05:49:53.012 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 05:53:53.495 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 05:55:43.094 NotebookApp] Kernel interrupted: ddc6eea1-3a75-453d-b7be-2053e36376e7
+[I 05:55:52.884 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 05:57:53.237 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 05:59:57.949 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 06:01:53.901 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 06:05:52.619 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 06:25:51.980 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 06:27:52.038 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 06:33:52.669 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 06:47:53.311 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 06:51:54.193 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 06:55:52.789 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 06:57:53.521 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 06:59:54.380 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 07:01:54.539 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 07:02:34.357 NotebookApp] Kernel interrupted: ddc6eea1-3a75-453d-b7be-2053e36376e7
+[I 07:03:53.721 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 07:07:53.855 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 07:09:53.392 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 07:15:54.441 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 07:17:54.079 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 07:19:52.570 NotebookApp] Kernel interrupted: ddc6eea1-3a75-453d-b7be-2053e36376e7
+[I 07:21:53.642 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 07:23:54.074 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 07:25:54.081 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 07:26:13.335 NotebookApp] Kernel interrupted: ddc6eea1-3a75-453d-b7be-2053e36376e7
+[I 07:26:25.286 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
