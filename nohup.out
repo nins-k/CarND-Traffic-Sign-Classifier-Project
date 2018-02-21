@@ -538,3 +538,1182 @@ I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow devi
 [I 07:25:54.081 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
 [I 07:26:13.335 NotebookApp] Kernel interrupted: ddc6eea1-3a75-453d-b7be-2053e36376e7
 [I 07:26:25.286 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 08:18:29.685 NotebookApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
+[W 08:18:30.088 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 08:18:30.088 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 08:18:30.300 NotebookApp] Serving notebooks from local directory: /home/carnd/CarND-Traffic-Sign-Classifier-Project
+[I 08:18:30.300 NotebookApp] 0 active kernels 
+[I 08:18:30.300 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 08:18:30.300 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 08:18:30.301 NotebookApp] No web browser found: could not locate runnable browser.
+[I 08:18:30.680 NotebookApp] 302 GET / (125.18.177.101) 0.60ms
+[I 08:18:47.849 NotebookApp] Writing notebook-signing key to /home/carnd/.local/share/jupyter/notebook_secret
+[W 08:18:47.852 NotebookApp] Notebook Traffic_Sign_Classifier.ipynb is not trusted
+[W 08:18:48.573 NotebookApp] Notebook Traffic_Sign_Classifier.ipynb is not trusted
+[I 08:18:50.770 NotebookApp] Kernel started: 9c86fd64-29d9-49d3-8407-7df482071732
+[I 08:18:50.774 NotebookApp] 302 GET /notebooks/visualize_cnn.png (125.18.177.101) 0.85ms
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcurand.so locally
+[I 08:20:53.826 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 08:20:53.827 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 08:22:53.598 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 08:22:53.599 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 08:24:55.535 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 08:24:55.536 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: GRID K520
+major: 3 minor: 0 memoryClockRate (GHz) 0.797
+pciBusID 0000:00:03.0
+Total memory: 3.94GiB
+Free memory: 3.91GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 08:26:56.269 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 08:26:56.270 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 08:28:54.844 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 08:28:54.845 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 08:30:56.267 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 08:30:56.267 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 08:32:56.347 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 08:32:56.347 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 08:36:55.671 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 08:40:54.623 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 08:43:00.120 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 08:44:56.900 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 09:10:53.515 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 09:12:54.905 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 09:14:54.872 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 09:16:56.129 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 09:18:56.102 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 09:20:55.115 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 09:22:54.774 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 09:24:31.474 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 10:30:53.364 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 10:32:53.716 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 10:34:54.206 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 10:36:54.483 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 10:40:55.729 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 11:08:53.708 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 11:38:53.639 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 11:40:53.853 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 11:42:54.704 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 11:44:55.606 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 11:46:54.890 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 11:52:54.803 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 11:54:53.872 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 11:56:53.923 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 11:58:54.267 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 12:00:54.245 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 12:06:54.216 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 12:08:54.696 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 12:56:53.506 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 12:57:01.695 NotebookApp] 302 GET / (38.140.143.234) 0.54ms
+[I 12:58:53.719 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 13:00:54.447 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 13:02:48.680 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 13:04:55.448 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 13:06:55.562 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 13:09:53.575 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 13:20:38.685 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 13:31:17.727 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 13:41:58.475 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 13:52:38.720 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2.5_weight/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2_bias not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2.5_weight/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2_bias/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2_bias/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2.5_weight not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_weight not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_weight/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_weight/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2_weight/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2.5_bias/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2_weight/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2_weight not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2.5_bias/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2.5_bias not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L3_bias/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L3_bias not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L3_bias/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L3_weight not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L3_weight/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L3_weight/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L4_weight not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L4_bias/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L4_weight/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_bias/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L4_bias not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L4_bias/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L4_weight/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_bias not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_bias/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key Variable_65 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key beta1_power_4 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key beta2_power_4 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias not found in checkpoint
+	 [[Node: save_4/RestoreV2 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_4/Const_0, save_4/RestoreV2/tensor_names, save_4/RestoreV2/shape_and_slices)]]
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 14:03:20.197 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 14:04:37.037 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+W tensorflow/core/framework/op_kernel.cc:975] Invalid argument: You must feed a value for placeholder tensor 'ph_keep_prob' with dtype float
+	 [[Node: ph_keep_prob = Placeholder[dtype=DT_FLOAT, shape=[], _device="/job:localhost/replica:0/task:0/gpu:0"]()]]
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 14:56:37.433 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 15:28:36.668 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 15:39:18.387 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 15:49:58.656 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 16:00:38.785 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 16:11:18.552 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_weight_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_weight_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_weight_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2.5_bias_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2.5_weight_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2.5_bias_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2.5_bias_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2.5_weight_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2_bias_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2_bias_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2.5_weight_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2_bias_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2_weight_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2_weight_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2_weight_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L3_bias_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L3_bias_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L3_bias_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L3_weight_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L3_weight_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L3_weight_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L4_bias_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L4_bias_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L4_bias_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L4_weight_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L4_weight_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L4_weight_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_bias_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_bias_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_bias_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key Variable_68 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key Variable_67 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key beta1_power_5 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key beta2_power_5 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+	 [[Node: save_5/RestoreV2_4 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_4/tensor_names, save_5/RestoreV2_4/shape_and_slices)]]
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_bias_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key Variable_67 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_bias_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key Variable_68 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_bias_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key beta1_power_5 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key beta2_power_5 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_weight_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_weight_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_bias_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L1_weight_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L4_weight_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2.5_bias_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2.5_bias_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2.5_bias_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2.5_weight_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L4_weight_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2.5_weight_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2_bias_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2.5_weight_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2_bias_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L4_weight_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2_bias_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2_weight_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2_weight_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L3_bias_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L3_bias_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L2_weight_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L3_bias_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L3_weight_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L3_weight_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L3_weight_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L5_weight_1/Adam_1 not found in checkpoint
+	 [[Node: save_5/RestoreV2_71 = RestoreV2[dtypes=[DT_FLOAT], _device="/job:localhost/replica:0/task:0/cpu:0"](_recv_save_5/Const_0, save_5/RestoreV2_71/tensor_names, save_5/RestoreV2_71/shape_and_slices)]]
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L4_bias_1/Adam_1 not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L4_bias_1/Adam not found in checkpoint
+W tensorflow/core/framework/op_kernel.cc:975] Not found: Key L4_bias_1 not found in checkpoint
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 16:22:00.226 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GRID K520, pci bus id: 0000:00:03.0)
+[I 16:32:38.544 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 16:43:17.002 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 16:52:00.254 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 16:52:46.607 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
