@@ -1781,3 +1781,7 @@ I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library
 [W 08:17:46.798 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
 [I 08:17:58.068 NotebookApp] Saving file at /writeup_template.md
 [I 08:58:37.335 NotebookApp] Saving file at /writeup_template.md
+[I 09:00:12.271 NotebookApp] 302 GET / (103.246.38.196) 0.42ms
+[I 09:00:12.648 NotebookApp] Uploading file to /markdown_images/05_img_after_augmentation.JPG
+[I 09:00:13.828 NotebookApp] Uploading file to /markdown_images/03_classes_below_threshold.JPG
+[I 09:00:15.025 NotebookApp] Uploading file to /markdown_images/04_img_before_augmentation.JPG
