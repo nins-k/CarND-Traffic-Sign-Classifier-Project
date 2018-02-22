@@ -1785,3 +1785,4 @@ I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library
 [I 09:00:12.648 NotebookApp] Uploading file to /markdown_images/05_img_after_augmentation.JPG
 [I 09:00:13.828 NotebookApp] Uploading file to /markdown_images/03_classes_below_threshold.JPG
 [I 09:00:15.025 NotebookApp] Uploading file to /markdown_images/04_img_before_augmentation.JPG
+[I 09:03:25.750 NotebookApp] Saving file at /writeup_template.md
