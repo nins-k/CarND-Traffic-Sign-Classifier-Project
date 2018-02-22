@@ -17,7 +17,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: /markdown_images/01_random_training_data.jpg
+[image1]: https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/markdown_images/01_random_training_data.JPG
 [image2]: markdown_images/02_data_distribution.jpg
 
 
