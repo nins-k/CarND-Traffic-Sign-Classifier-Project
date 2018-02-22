@@ -57,13 +57,13 @@ Below is a part of the grid of random images.
 
 Next, I have used bar charts to display the distribution of the Training and Validation data sets across the 43 output classes.
 
-![alt text](markdown_images/02_data_distribution.jpg "Data distribution")
+![alt text](markdown_images/02_data_distribution.JPG "Data distribution")
 
 Further, I have displayed one image from each class which I feel is under-represented. For determining these classes, I have selected **1000 images** as a threshold. Any classes with less than 1000 images are considered here to be in need of augmentation.
 
 Below is a part of the displayed grid of images.
 
-![alt text](markdown_images/03_classes_below_threshold.jpg "Classes below threshold")
+![alt text](markdown_images/03_classes_below_threshold.JPG "Classes below threshold")
 
 
 ### Design and Test a Model Architecture
@@ -113,11 +113,11 @@ Below is an example of an image and an augmented version generated from it.
 
 **Original Image**
 
-![alt text](markdown_images/04_img_before_augmentation.jpg "Image before augmentation")
+![alt text](markdown_images/04_img_before_augmentation.JPG "Image before augmentation")
 
 **Augmented Image**
 
-![alt text](markdown_images/05_img_after_augmentation.jpg "Image after augmentation")
+![alt text](markdown_images/05_img_after_augmentation.JPG "Image after augmentation")
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
