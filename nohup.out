@@ -1822,3 +1822,6 @@ I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library
 [I 13:47:59.886 NotebookApp] Saving file at /writeup_template.md
 [I 14:06:40.691 NotebookApp] Saving file at /writeup_template.md
 [I 14:22:02.740 NotebookApp] Saving file at /writeup_template.md
+[I 14:31:26.345 NotebookApp] Saving file at /writeup_template.md
+[I 14:31:33.977 NotebookApp] 302 GET / (103.246.38.196) 0.57ms
+[I 14:31:35.078 NotebookApp] Uploading file to /markdown_images/06_distribution_post_augmentation.JPG

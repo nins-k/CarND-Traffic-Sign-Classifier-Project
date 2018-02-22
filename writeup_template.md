@@ -228,7 +228,10 @@ My final model results were:
 * To make the network robuts, dropout was added to both the convolutional layers with a probability of 0.5. At this point, the network was showing a validation set accuracy in the range of 92% - 93%.
 * To Improve the accuracy further, I focussed on preprocessing: Augmentation, Grayscale and Normalization. This improved accuracy to the range of 96%.
 * Further, the tuning of hyperparameters and implementation of decaying learning rate helped the accuracy past 97%.
-* 
+
+<hr>
+
+The model has a fairly good accuracy on the Validation and Test sets, indicating that it works well with the properly preprocessed data set.
  
 
 ### Test a Model on New Images
@@ -237,10 +240,9 @@ My final model results were:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text](web-images/02.jpg) ![alt text](web-images/100_1607.jpg) ![alt text](web-images/Arterial.jpg) ![alt text](web-images/Stop sign.jpg) ![alt text](web-images/turn_left.jpg)
 
-The first image might be difficult to classify because ...
+The first image has a lot of objects in the background and was included as more of a challenge image (which the model failed to predict :( )
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
