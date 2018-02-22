@@ -18,8 +18,8 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/markdown_images/01_random_training_data.JPG
-[image2]: https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/markdown_images//02_data_distribution.jpg
-[image3]: https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/markdown_images//03_classes_below_threshold.jpg
+[image2]: https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/markdown_images/02_data_distribution.jpg
+[image3]: https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/markdown_images/03_classes_below_threshold.jpg
 [image4]: https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/markdown_images/04_img_before_augmentation.jpg
 [image5]: https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/markdown_images/05_img_after_augmentation.jpg
 
