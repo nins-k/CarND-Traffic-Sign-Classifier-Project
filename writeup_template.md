@@ -17,8 +17,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./markdown_images/01_random_training_data.jpg
-[image2]: ./markdown_images/02_data_distribution.jpg
+[image1]: /markdown_images/01_random_training_data.jpg
+[image2]: markdown_images/02_data_distribution.jpg
 
 
 
