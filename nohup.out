@@ -1803,3 +1803,8 @@ I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library
 [I 11:23:28.268 NotebookApp] 302 GET /notebooks/visualize_cnn.png (125.18.177.101) 0.84ms
 [W 11:27:09.797 NotebookApp] 404 GET /favicon.ico (125.18.177.101) 10.28ms referer=http://54.67.30.118:8888/view/writeup_template.md
 [I 11:29:01.959 NotebookApp] Saving file at /writeup_template.md
+[W 11:42:40.957 NotebookApp] delete /markdown_images/01_random_training_data.JPG
+[W 11:42:40.960 NotebookApp] delete /markdown_images/02_data_distribution.JPG
+[W 11:42:40.972 NotebookApp] delete /markdown_images/03_classes_below_threshold.JPG
+[W 11:42:40.976 NotebookApp] delete /markdown_images/05_img_after_augmentation.JPG
+[W 11:42:40.991 NotebookApp] delete /markdown_images/04_img_before_augmentation.JPG
