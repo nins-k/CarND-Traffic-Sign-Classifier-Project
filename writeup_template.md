@@ -54,11 +54,11 @@ First, I have displayed 25 images at random from the training set along with the
 Below is a part of the grid of random images.
 
 ![alt text](markdown_images/01_random_training_data.JPG "Random training data")
-
+<hr>
 Next, I have used bar charts to display the distribution of the Training and Validation data sets across the 43 output classes.
 
 ![alt text](markdown_images/02_data_distribution.JPG "Data distribution")
-
+<hr>
 Further, I have displayed one image from each class which I feel is under-represented. For determining these classes, I have selected **1000 images** as a threshold. Any classes with less than 1000 images are considered here to be in need of augmentation.
 
 Below is a part of the displayed grid of images.
@@ -89,6 +89,7 @@ def random_brightness(img, value_range=70):
     
     return img
 ```
+<hr>
 
 The second helper method performs rotation on the image up till a maximum given angle
 
@@ -119,11 +120,19 @@ Below is an example of an image and an augmented version generated from it.
 **Augmented Image**
 
 ![alt text](markdown_images/05_img_after_augmentation.JPG "Image after augmentation")
-
+<hr>
 The distribution of the training data after augmentation is shown below.
 
 ![Distribution Post Augmentation](markdown_images/06_distribution_post_augmentation.JPG "Post Augmentation")
 
+The function also prints the below information:
+```
+27 classes need to be augmented
+16891 images need to be generated
+
+Images have been created
+```
+<hr>
 Two other helper functions have been created to convert an image to grayscale and to normalize it. 
 
 The grayscale output puts the pixel values in the range of [0,1].
@@ -187,7 +196,23 @@ The modifications include:
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model, I used an ....
+The hyperparameters of my model are summarized below:
+1. **Epochs**: 150
+2. **Batch Size**: 512
+3. **Learning Rate** (Initial): 0.001
+4. **Decay Rate**: 0.9
+5. **Decay Steps**: 100
+6. **Keep Prob**: 0.5
+7. **Optimizer**: Adam
+
+Most of the parameters were arrived at through experimentation. 
+
+* The validation accuracy stabalises after 100 **epochs**. There is a marginal improvement in the last 50 epochs and if training time was a concern, these could be avoided.
+* A **batch size** larger than 512 did not provide any significant gains.
+* A loss of 0.002 was more effective for **learning** with fewer epochs, but since training time was not a concern, I have trained the final model with a rate of 0.001
+* The **Decay Rate** and **Decay Steps** are used to implement the exponential decay of the learning rate. This is not required for Adam but was reported to slightly improve accuracy. For my model, this helped the model to converge more smoothly.
+* Adam **optimizer** was chosen since it is efficient and does not require a lot of fine tuning.
+
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
@@ -251,8 +276,5 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 
 
 For the second image ... 
-
-### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
-#### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 
 
