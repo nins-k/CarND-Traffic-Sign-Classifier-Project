@@ -1787,3 +1787,19 @@ I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library
 [I 09:00:15.025 NotebookApp] Uploading file to /markdown_images/04_img_before_augmentation.JPG
 [I 09:03:25.750 NotebookApp] Saving file at /writeup_template.md
 [I 09:21:25.830 NotebookApp] Saving file at /writeup_template.md
+[I 11:23:04.335 NotebookApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
+[W 11:23:04.800 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 11:23:04.800 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 11:23:05.074 NotebookApp] Serving notebooks from local directory: /home/carnd/CarND-Traffic-Sign-Classifier-Project
+[I 11:23:05.074 NotebookApp] 0 active kernels 
+[I 11:23:05.074 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 11:23:05.074 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 11:23:05.075 NotebookApp] No web browser found: could not locate runnable browser.
+[I 11:23:05.264 NotebookApp] 302 GET / (125.18.177.101) 0.62ms
+[I 11:23:25.303 NotebookApp] Writing notebook-signing key to /home/carnd/.local/share/jupyter/notebook_secret
+[W 11:23:25.307 NotebookApp] Notebook Traffic_Sign_Classifier.ipynb is not trusted
+[W 11:23:25.632 NotebookApp] Notebook Traffic_Sign_Classifier.ipynb is not trusted
+[I 11:23:28.263 NotebookApp] Kernel started: c64076d7-f0d6-41f6-b4e2-bdceef8c5963
+[I 11:23:28.268 NotebookApp] 302 GET /notebooks/visualize_cnn.png (125.18.177.101) 0.84ms
+[W 11:27:09.797 NotebookApp] 404 GET /favicon.ico (125.18.177.101) 10.28ms referer=http://54.67.30.118:8888/view/writeup_template.md
+[I 11:29:01.959 NotebookApp] Saving file at /writeup_template.md

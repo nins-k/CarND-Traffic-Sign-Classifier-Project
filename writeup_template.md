@@ -15,15 +15,6 @@ The goals / steps of this project are the following:
 * Summarize the results with a written report
 
 
-[//]: # (Image References)
-
-[image1]: https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/markdown_images/01_random_training_data.JPG
-[image2]: https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/markdown_images/02_data_distribution.jpg
-[image3]: https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/markdown_images/03_classes_below_threshold.jpg
-[image4]: https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/markdown_images/04_img_before_augmentation.jpg
-[image5]: https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/markdown_images/05_img_after_augmentation.jpg
-
-
 ---
 ### Writeup / README
 
@@ -62,17 +53,17 @@ First, I have displayed 25 images at random from the training set along with the
 
 Below is a part of the grid of random images.
 
-![Random training images][image1]
+![Random training images](markdown_images/01_random_training_data.JPG)
 
 Next, I have used bar charts to display the distribution of the Training and Validation data sets across the 43 output classes.
 
-![Data distribution][image2]
+![Data distribution](markdown_images/02_data_distribution.jpg)
 
 Further, I have displayed one image from each class which I feel is under-represented. For determining these classes, I have selected **1000 images** as a threshold. Any classes with less than 1000 images are considered here to be in need of augmentation.
 
 Below is a part of the displayed grid of images.
 
-![Classes below threshold][image3]
+![Classes below threshold](markdown_images/03_classes_below_threshold.jpg)
 
 
 ### Design and Test a Model Architecture
@@ -122,11 +113,11 @@ Below is an example of an image and an augmented version generated from it.
 
 **Original Image**
 
-![Original Image][image4]
+![Original Image](markdown_images/04_img_before_augmentation.jpg)
 
 **Augmented Image**
 
-![Augmented Image][image5]
+![Augmented Image](markdown_images/05_img_after_augmentation.jpg)
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
