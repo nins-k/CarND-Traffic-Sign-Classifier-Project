@@ -240,7 +240,11 @@ The model has a fairly good accuracy on the Validation and Test sets, indicating
 
 Here are five German traffic signs that I found on the web:
 
-![alt text](web-images/02.jpg) ![alt text](web-images/100_1607.jpg) ![alt text](web-images/Arterial.jpg) ![alt text](web-images/Stop sign.jpg) ![alt text](web-images/turn_left.jpg)
+![alt text](markdown_images/07_web_images.JPG)
+
+The original full size images were obtained online here:
+[Image 1](http://www.springdot.org/baustelle/02/02.jpg), [Image 2](http://bicyclegermany.com/Images/Laws/100_1607.jpg), [Image 3](http://bicyclegermany.com/Images/Laws/Arterial.jpg), [Image 4](http://bicyclegermany.com/Images/Laws/Stop%20sign.jpg), [Image 5](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgdAJijJ-WAHAEZOomc3-NMivIYaXaCwDAakHcRTFv_YrMO_Jo)
+
 
 The first image has a lot of objects in the background and was included as more of a challenge image (which the model failed to predict :( )
 
@@ -250,14 +254,21 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| Road work      		| General caution  								| 
+| Right-of-way at the next intersection    			| Right-of-way at the next intersection										|
+| Priority road			| Priority road										|
+| Stop      		| Stop					 				|
+| Turn left ahead	| Turn left ahead     							|
 
+<hr>
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
+* Image **01**: This image is very noisy with large features present in the background. It was a challenge image for prediction. The model did not predict the image correctly.
+* Images **02 and 03**: These images belong to classes that were well represented in the training data set. The background does contain other features such as clouds and buildings but the model was able to predict these images correctly.
+* Images **04 and 05**: These images belong to classes that were augmented. Especially image 05 is of class "Turn left ahead" which initially had less than 400 images and the image does contain noise and extra features. This indicates that the model works well with augmented data.
+
+<hr>
+
+The model was able to **_correctly_ guess 4 of the 5 traffic signs**, which gives an accuracy of 80%. Given that the web set was of 5 images only, it is a fair comparison to the Test accuracy of 93.4%
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
