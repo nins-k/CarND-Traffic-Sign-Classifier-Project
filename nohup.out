@@ -1769,3 +1769,15 @@ I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library
 [I 05:50:23.392 NotebookApp] Uploading file to /markdown_images/02_data_distribution.JPG
 [I 05:50:26.126 NotebookApp] Uploading file to /markdown_images/01_random_training_data.JPG
 [I 05:58:39.610 NotebookApp] Saving file at /writeup_template.md
+[I 06:00:15.432 NotebookApp] Saving file at /writeup_template.md
+[I 06:02:40.414 NotebookApp] Saving file at /writeup_template.md
+[I 06:12:28.858 NotebookApp] Saving file at /writeup_template.md
+[I 06:44:39.419 NotebookApp] Saving file at /writeup_template.md
+[I 08:05:46.090 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 08:05:46.091 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 08:07:47.249 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 08:07:47.250 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 08:17:46.797 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 08:17:46.798 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 08:17:58.068 NotebookApp] Saving file at /writeup_template.md
+[I 08:58:37.335 NotebookApp] Saving file at /writeup_template.md

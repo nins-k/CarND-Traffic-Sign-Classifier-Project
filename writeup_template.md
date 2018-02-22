@@ -18,9 +18,10 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/markdown_images/01_random_training_data.JPG
-[image2]: markdown_images/02_data_distribution.jpg
-
-
+[image2]: https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/markdown_images/markdown_images/02_data_distribution.jpg
+[image3]: https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/markdown_images/markdown_images/03_classes_below_threshold.jpg
+[image4]: https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/markdown_images/markdown_images/04_img_before_augmentation.jpg
+[image5]: https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/markdown_images/markdown_images/05_img_after_augmentation.jpg
 
 
 ---
@@ -59,7 +60,7 @@ n_classes = len(set(y_train))
 
 First, I have displayed 25 images at random from the training set along with their labels, to familiarize myself with the kind of images in the training set. The same cell can be run repeatedly to view a number of images. 
 
-Below is a part of the grid.
+Below is a part of the grid of random images.
 
 ![Random training images][image1]
 
@@ -67,29 +68,65 @@ Next, I have used bar charts to display the distribution of the Training and Val
 
 ![Data distribution][image2]
 
+Further, I have displayed one image from each class which I feel is under-represented. For determining these classes, I have selected **1000 images** as a threshold. Any classes with less than 1000 images are considered here to be in need of augmentation.
+
+Below is a part of the displayed grid of images.
+
+![Classes below threshold][image3]
+
 
 ### Design and Test a Model Architecture
 
-#### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
+#### 1. Describe how you preprocessed the image data. 
 
-As a first step, I decided to convert the images to grayscale because ...
+The below helper method increases the brightness of an image at random up till a certain max value
 
-Here is an example of a traffic sign image before and after grayscaling.
+```python
+def random_brightness(img, value_range=70):
+    
+    rnd = np.random.randint(low=0, high=value_range+1)
+    
+    # Conver to HSV and isolate the V channel
+    img = cv2.cvtColor(img, cv2.COLOR_RGB2HSV)
+    h, s, v = cv2.split(img)
+    v += rnd
+    
+    # Merge all channels and convery back to RGB
+    img = cv2.merge((h, s, v))
+    img = cv2.cvtColor(img, cv2.COLOR_HSV2RGB)
+    img = np.ndarray.astype(img, np.uint8)
+    
+    return img
+```
 
-![alt text][image2]
+The second helper method performs rotation on the image up till a maximum given angle
 
-As a last step, I normalized the image data because ...
+```python
+def random_rotation(img, angle_range=10):
+    
+    rnd_angle = np.random.randint(-angle_range, angle_range+1)
+    img = transform.rotate(img, rnd_angle, preserve_range=True)
+    img = np.ndarray.astype(img, np.uint8)
+    
+    return img
 
-I decided to generate additional data because ... 
+```
 
-To add more data to the the data set, I used the following techniques because ... 
+Using these two helper methods, the under-represented classes have been augmented with new images. 
+* The classes with less than 1000 images are identified. 
+* For each such class, an image from that class is selected at random.
+* Using this image, 5 new images (brightness and rotation modified) are created.
+* Process is repeated from Step 2 till the class has 1000 images.
 
-Here is an example of an original image and an augmented image:
+Below is an example of an image and an augmented version generated from it.
 
-![alt text][image3]
+**Original Image**
 
-The difference between the original data set and the augmented data set is the following ... 
+![Original Image][image4]
 
+**Augmented Image**
+
+![Augmented Image][image5]
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
