@@ -1717,3 +1717,55 @@ I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow devi
 [I 16:43:17.002 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
 [I 16:52:00.254 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
 [I 16:52:46.607 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[I 04:19:19.762 NotebookApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
+[W 04:19:20.191 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 04:19:20.191 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 04:19:20.475 NotebookApp] Serving notebooks from local directory: /home/carnd/CarND-Traffic-Sign-Classifier-Project
+[I 04:19:20.475 NotebookApp] 0 active kernels 
+[I 04:19:20.475 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 04:19:20.475 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 04:19:20.476 NotebookApp] No web browser found: could not locate runnable browser.
+[I 04:19:29.109 NotebookApp] 302 GET / (125.18.177.101) 1.01ms
+[I 04:19:29.202 NotebookApp] 302 GET / (103.246.38.196) 0.77ms
+[I 04:19:39.890 NotebookApp] Writing notebook-signing key to /home/carnd/.local/share/jupyter/notebook_secret
+[W 04:19:39.898 NotebookApp] Notebook Traffic_Sign_Classifier.ipynb is not trusted
+[W 04:19:40.157 NotebookApp] Notebook Traffic_Sign_Classifier.ipynb is not trusted
+[W 04:19:40.300 NotebookApp] Notebook Traffic_Sign_Classifier.ipynb is not trusted
+[I 04:19:42.682 NotebookApp] 302 GET /notebooks/visualize_cnn.png (125.18.177.101) 1.36ms
+[I 04:19:42.733 NotebookApp] Kernel started: 14130fe4-c005-4a10-a845-ad2f4aba4e87
+[I 04:21:45.885 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:21:45.887 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcurand.so locally
+[I 04:23:46.510 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:23:46.511 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:25:47.005 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:25:47.006 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:29:46.758 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:29:46.759 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:31:46.519 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:31:46.520 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:33:46.744 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:33:46.745 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 04:44:42.337 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 04:44:42.338 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[W 04:44:49.532 NotebookApp] Notebook Traffic_Sign_Classifier.ipynb is not trusted
+[W 04:44:50.114 NotebookApp] Notebook Traffic_Sign_Classifier.ipynb is not trusted
+[W 04:47:05.428 NotebookApp] No such file or directory: report.html
+[W 04:47:05.428 NotebookApp] 404 GET /api/contents/report.html (103.246.38.196) 1.09ms referer=None
+[W 04:47:05.536 NotebookApp] No such file or directory: report.html
+[W 04:47:05.537 NotebookApp] 404 GET /api/contents/report.html (155.64.38.90) 0.75ms referer=None
+[I 04:47:08.815 NotebookApp] Uploading file to /report.html
+[I 04:57:07.259 NotebookApp] 302 GET / (103.246.38.196) 0.34ms
+[W 05:01:48.659 NotebookApp] 404 GET /favicon.ico (125.18.177.101) 9.28ms referer=http://52.53.238.22:8888/view/writeup_template.md
+[I 05:13:45.425 NotebookApp] Saving file at /Traffic_Sign_Classifier.ipynb
+[W 05:13:45.426 NotebookApp] Saving untrusted notebook Traffic_Sign_Classifier.ipynb
+[I 05:38:10.125 NotebookApp] Saving file at /writeup_template.md
+[I 05:49:57.264 NotebookApp] Creating new directory in 
+[I 05:50:22.537 NotebookApp] 302 GET / (103.246.38.196) 0.39ms
+[I 05:50:23.392 NotebookApp] Uploading file to /markdown_images/02_data_distribution.JPG
+[I 05:50:26.126 NotebookApp] Uploading file to /markdown_images/01_random_training_data.JPG
+[I 05:58:39.610 NotebookApp] Saving file at /writeup_template.md

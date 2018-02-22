@@ -1,8 +1,6 @@
-# **Traffic Sign Recognition** 
+# Udacity Self-Driving Car Nanodegree
 
-## Writeup
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
+## Term 2 : Project 02 - Traffic Sign Classifier
 
 ---
 
@@ -19,43 +17,56 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
-[image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image1]: ./markdown_images/01_random_training_data.jpg
+[image2]: ./markdown_images/02_data_distribution.jpg
 
-## Rubric Points
-### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
+
+
 
 ---
 ### Writeup / README
 
-#### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
+This file is the **Write-Up**.
 
-You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
+The **HTML report** is [here.](https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/LICENSE)
+
+The **Jupyter Notebook** is [here.](https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ### Data Set Summary & Exploration
 
-#### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
+#### 1. Provide a basic summary of the data set.
 
-I used the pandas library to calculate summary statistics of the traffic
-signs data set:
+The baisc statistic summary of the set can be obtained with Python.
 
-* The size of training set is ?
-* The size of the validation set is ?
-* The size of test set is ?
-* The shape of a traffic sign image is ?
-* The number of unique classes/labels in the data set is ?
+```python
+# Number of training examples
+n_train = len(y_train)
+
+# Number of validation examples
+n_validation = len(y_valid)
+
+# Number of testing examples.
+n_test = len(y_test)
+
+# The shape of a traffic sign image.
+image_shape = (np.array(X_train[0])).shape
+
+# Unique classes/labels there are in the dataset.
+n_classes = len(set(y_train))
+```
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+First, I have displayed 25 images at random from the training set along with their labels, to familiarize myself with the kind of images in the training set. The same cell can be run repeatedly to view a number of images. 
 
-![alt text][image1]
+Below is a part of the grid.
+
+![Random training images][image1]
+
+Next, I have used bar charts to display the distribution of the Training and Validation data sets across the 43 output classes.
+
+![Data distribution][image2]
+
 
 ### Design and Test a Model Architecture
 
