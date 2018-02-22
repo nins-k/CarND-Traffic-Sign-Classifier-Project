@@ -1808,3 +1808,8 @@ I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library
 [W 11:42:40.972 NotebookApp] delete /markdown_images/03_classes_below_threshold.JPG
 [W 11:42:40.976 NotebookApp] delete /markdown_images/05_img_after_augmentation.JPG
 [W 11:42:40.991 NotebookApp] delete /markdown_images/04_img_before_augmentation.JPG
+[I 11:44:27.099 NotebookApp] Uploading file to /markdown_images/04_img_before_augmentation.JPG
+[I 11:44:27.856 NotebookApp] Uploading file to /markdown_images/01_random_training_data.JPG
+[I 11:44:28.000 NotebookApp] Uploading file to /markdown_images/05_img_after_augmentation.JPG
+[I 11:44:28.795 NotebookApp] Uploading file to /markdown_images/02_data_distribution.JPG
+[I 11:44:31.709 NotebookApp] Uploading file to /markdown_images/03_classes_below_threshold.JPG
