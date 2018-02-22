@@ -103,7 +103,8 @@ def random_rotation(img, angle_range=10):
 
 ```
 
-Using these two helper methods, the under-represented classes have been augmented with new images. 
+Using these two helper methods, the under-represented classes have been augmented with new images. The method **augment_data()** is responsible for identifying the classes that need to be augmented and how many images need to be created for each class. It will accordingly generate new images .
+
 * The classes with less than 1000 images are identified. 
 * For each such class, an image from that class is selected at random.
 * Using this image, 5 new images (brightness and rotation modified) are created.
@@ -119,22 +120,69 @@ Below is an example of an image and an augmented version generated from it.
 
 ![alt text](markdown_images/05_img_after_augmentation.JPG "Image after augmentation")
 
-#### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
+The distribution of the training data after augmentation is shown below.
 
-My final model consisted of the following layers:
+![Distribution Post Augmentation](markdown_images/06_distribution_post_augmentation.JPG "Post Augmentation")
+
+Two other helper functions have been created to convert an image to grayscale and to normalize it. 
+
+The grayscale output puts the pixel values in the range of [0,1].
+```python
+def grayscale(images):
+    
+    #Output is reshaped to 32x32x1 as that is the required input for the ConvNet
+    return np.array([np.reshape(skc.rgb2gray(img), (32, 32, 1)) for img in images])
+```
+
+```python
+# Normalizes pixel values using the mean and std values passed to the function
+
+def normalize(images, m, s):    
+    return (images - m) / s
+```
+
+The normalization function needs the mean and std as inputs. Here, I am calculating the mean and std of the training set and using it for all normalization operations<sup>[[1]](https://stats.stackexchange.com/questions/211436/why-do-we-normalize-images-by-subtracting-the-datasets-image-mean-and-not-the-c)[[2]](https://stats.stackexchange.com/questions/322802/per-image-normalization-vs-overall-dataset-normalization)</sup>.
+
+```python
+# Convert training, validation and test data to grayscale
+X_train = grayscale(X_train)
+X_valid = grayscale(X_valid)
+X_test = grayscale(X_test)
+
+# Calculate mean and std of the grayscaled training data
+train_mean = np.mean(X_train)
+train_std = np.std(X_train)
+
+# Normalize training, validation and test data using mean and std of the training data
+X_train = normalize(X_train, train_mean, train_std)
+X_valid = normalize(X_valid, train_mean, train_std)
+X_test = normalize(X_test, train_mean, train_std)
+```
+
+#### 2. Describe what your final model architecture looks like 
+
+Starting with the LeNet Architecture, I have added an additional Convolutional Layer since additional features need to be identified for traffic signs.
+
+The modifications include:
+* Convolutional layer with SAME padding.
+* Dropout with 0.5 keep_prob on two fully connected layers<sup>[[3]](https://stats.stackexchange.com/questions/240305/where-should-i-place-dropout-layers-in-a-neural-network)</sup>.
+* Exponential decay of learning rate in addition to Adam's own decay<sup>[[4]](https://www.tensorflow.org/versions/r0.12/api_docs/python/train/decaying_the_learning_rate)</sup>.
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
-| Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
+| Input         		| 32x32x1 Grayscaled Image   					| 
+| Convolution 5x5     	| 1x1 stride, VALID padding, outputs 28x28x6 	|
 | RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
-| Convolution 3x3	    | etc.      									|
-| Fully connected		| etc.        									|
-| Softmax				| etc.        									|
-|						|												|
-|						|												|
- 
+| Max pooling	      	| 2x2 stride, VALID padding, outputs 14x14x6 	|
+| Convolution 5x5	    | 1x1 stride, VALID padding, outputs 10x10x16   |
+| RELU					|												|
+| Convolution 5x5		| 1x1 stride, SAME padding, outputs 10x10x16	|
+| RELU					|												|
+| Max pooling	      	| 2x2 stride, VALID padding, outputs 5x5x16		|
+| Fully connected		| Dropout with keep_prob=0.5, Outputs 120      	|
+| Fully connected		| Dropout with keep_prob=0.5, Outputs 84      	|
+| Fully connected		| Dropout with keep_prob=0.5, Outputs 43      	|
+| Softmax				|        										|
 
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
