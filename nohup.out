@@ -2030,3 +2030,5 @@ I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow devi
 [W 04:29:19.844 NotebookApp] No such file or directory: WriteUp
 [W 04:29:19.844 NotebookApp] 404 GET /api/contents/WriteUp (103.246.38.196) 0.91ms referer=None
 [I 04:29:40.680 NotebookApp] Saving file at /WriteUp.md
+[I 04:33:23.991 NotebookApp] Saving file at /WriteUp.md
+[I 04:36:30.291 NotebookApp] Saving file at /README.md

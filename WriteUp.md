@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 
 This file is the **Write-Up**.
 
-The **HTML report** is [here.](https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/LICENSE)
+The **HTML report** is [here.](https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/report.html)
 
 The **Jupyter Notebook** is [here.](https://github.com/nins-k/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
 
