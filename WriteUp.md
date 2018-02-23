@@ -173,8 +173,9 @@ X_test = normalize(X_test, train_mean, train_std)
 Starting with the LeNet Architecture, I have added an additional Convolutional Layer since additional features need to be identified for traffic signs.
 
 The modifications include:
-* Convolutional layer with SAME padding.
-* Dropout with 0.5 keep_prob on two fully connected layers<sup>[[3]](https://stats.stackexchange.com/questions/240305/where-should-i-place-dropout-layers-in-a-neural-network)</sup>.
+* One additional convolutional layer with SAME padding.
+* One additional fully connected layer
+* Dropout with 0.5 keep_prob on three fully connected layers<sup>[[3]](https://stats.stackexchange.com/questions/240305/where-should-i-place-dropout-layers-in-a-neural-network)</sup>.
 * Exponential decay of learning rate in addition to Adam's own decay<sup>[[4]](https://www.tensorflow.org/versions/r0.12/api_docs/python/train/decaying_the_learning_rate)</sup>.
 
 | Layer         		|     Description	        					| 
@@ -188,6 +189,7 @@ The modifications include:
 | Convolution 5x5		| 1x1 stride, SAME padding, outputs 10x10x16	|
 | RELU					|												|
 | Max pooling	      	| 2x2 stride, VALID padding, outputs 5x5x16		|
+| Fully connected		| Dropout with keep_prob=0.5, Outputs 200      	|
 | Fully connected		| Dropout with keep_prob=0.5, Outputs 120      	|
 | Fully connected		| Dropout with keep_prob=0.5, Outputs 84      	|
 | Fully connected		| Dropout with keep_prob=0.5, Outputs 43      	|
@@ -217,9 +219,9 @@ Most of the parameters were arrived at through experimentation.
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93.
 
 My final model results were:
-* Training set accuracy of **99.9%**
-* Validation set accuracy of **97.1%**
-* Test set accuracy of **94.4%**
+* Training set accuracy of **100%**
+* Validation set accuracy of **96.8%**
+* Test set accuracy of **95.2%**
 
 <hr>
 
@@ -228,6 +230,7 @@ My final model results were:
 * To make the network robuts, dropout was added to both the convolutional layers with a probability of 0.5. At this point, the network was showing a validation set accuracy in the range of 92% - 93%.
 * To Improve the accuracy further, I focussed on preprocessing: Augmentation, Grayscale and Normalization. This improved accuracy to the range of 96%.
 * Further, the tuning of hyperparameters and implementation of decaying learning rate helped the accuracy past 97%.
+* On discussing the model with my peers, it was recommended that I add a fully connected layer to increase the complexity of the network - so the last change I did was to add a fully connected layer.
 
 <hr>
 
@@ -248,13 +251,13 @@ The original full size images were obtained online here:
 
 The first image has a lot of objects in the background and was included as more of a challenge image (which the model failed to predict :( )
 
-#### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
+#### 2. Discuss the model's predictions on these new traffic signs
 
 Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Road work      		| General caution  								| 
+| Road work      		| Beware of ice/snow							| 
 | Right-of-way at the next intersection    			| Right-of-way at the next intersection										|
 | Priority road			| Priority road										|
 | Stop      		| Stop					 				|
@@ -270,21 +273,69 @@ Here are the results of the prediction:
 
 The model was able to **_correctly_ guess 4 of the 5 traffic signs**, which gives an accuracy of 80%. Given that the web set was of 5 images only, it is a fair comparison to the Test accuracy of 93.4%
 
-#### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
+#### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction
 
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
-
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
+#### Image 0: Class 25 (Road work) ####
+This image was incorrectly predicted. The correct class is not in the top 5 probabilities. It has been completely misclassified, which was somewhat expected for this noisy image.
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
+| 0.758        			| Beware of ice/snow						| 
+| 0.089				| Right-of-way at the next intersection									|
+| 0.073				| Pedestrians								|
+| 0.034	      			| Slippery road			 				|
+| 0.021				    | Double curve    							|
 
+<hr> 
 
-For the second image ... 
+#### Image 01: Class 11 (Right-of-way at the next intersection) ####
+This image was correctly predicted with a probability of 1. The model is very confident about the prediction.
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 1.000     			| Right-of-way at the next intersection							| 
+| 0.000			| General caution									|
+| 0.000					| Double curve								|
+| 0.000	      			| Beware of ice/snow			 				|
+| 0.000				    | Roundabout mandatory
+<hr> 
+
+#### Image 02: Class 12 (Priority road) ####
+This image was correctly predicted with a probability of 1. The model is very confident about the prediction.
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 1.000       			| Priority road								| 
+| 0.000					| Roundabout mandatory									|
+| 0.000						| Yield								|
+| 0.000		      			| General caution			 				|
+| 0.000					    | Speed limit (100km/h)
+<hr> 
+
+#### Image 03: Class 14 (Stop) ####
+This image was correctly predicted with a probability of 1. The model is very confident about the prediction.
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 1.000      			| Stop								| 
+| 0.000				| Keep right									|
+| 0.000					| Speed limit (30km/h)									|
+| 0.000	      			| Yield			 				|
+| 0.000				    | Turn right ahead							|
+
+<hr> 
+
+#### Image 04: Class 34 (Turn left ahead) ####
+This image was correctly predicted with a probability of 0.695. The image has other features including clouds and text at the bottom. The class of this image was also originally under-represented and had to be augmented.
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 0.695       			| Turn left ahead							| 
+| 0.110 				| General caution									|
+| 0.044					| Roundabout mandatory									|
+| 0.029 	      			| Turn right ahead			 				|
+| 0.024				    | Priority road   							|
+
+<hr> 
 
 
